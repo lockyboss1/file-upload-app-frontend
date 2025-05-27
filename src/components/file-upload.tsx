@@ -97,8 +97,6 @@ export default function FileUpload() {
           },
         }
       );
-      console.log("response", response);
-      console.log("hiyyyy");
       return response.data;
     },
   };
